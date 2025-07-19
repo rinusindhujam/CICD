@@ -22,4 +22,4 @@ jobs:
 
     - name: SSH to EC2 and run commands
       run: |
-        ssh -o StrictHostKeyChecking=no -i my-ec2-key.pem ec2-user@YOUR_EC2_IP 'echo "Hello from GitHub Actions!" && hostname && ls -la'
+        ssh -o StrictHostKeyChecking=no -i my-ec2-key.pem ec2-user@3.110.153.44 'echo "Hello from GitHub Actions!" && hostname && ls -la'
